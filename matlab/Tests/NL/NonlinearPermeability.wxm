@@ -1,0 +1,29 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 11.08.0 ] */
+
+/* [wxMaxima: input   start ] */
+linsolve([
+mx = beta*(hy*(Ms+mz)-my*(Hi)), 
+my = -beta*(hx*(Ms+mz)-mx*(Hi)),
+mz = beta*(my*hx-mx*hy)],
+[mx,my,mz]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+linsolve([
+mx = beta*(hz*(Ms+my)-mz*(Hi+hy)), 
+my = beta*(mz*hx-mx*hz),
+mz = -beta*(hx*(Ms+my)-mx*(Hi+hy))],
+[mx,my,mz]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+linsolve([
+mx = beta*(hz*(Ms+my)-mz*(Hi+4*%pi*Nz*my)), 
+my = (mx^2+mz^2)/(2*Ms),
+mz = -beta*(hx*(Ms+my)-mx*(Hi+4*%pi*Nz*my))],
+[mx,my,mz]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
