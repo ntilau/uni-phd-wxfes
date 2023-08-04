@@ -1,0 +1,28 @@
+#
+# wr90.poly
+#
+# Sample file for standard waveguide description.
+# this simple file describe a WR90 waveguide phase shifter at
+# 10 GHz frequency.
+#
+# Part 1 - node list
+4 2 1 0
+1 -11.43e-3 -5.08e-3 0.0
+2 -11.43e-3 5.08e-3 0.0
+3 11.43e-3 5.08e-3 0.0
+4 11.43e-3 -5.08e-3 0.0
+# Part 2 - segments list
+4 1
+1 1 2 1
+2 2 3 2
+3 3 4 1
+4 4 1 3
+# Part 3 - hole list
+0
+# Part 4 - region list
+1
+1 0.0 0.0 0 1e-7
+#Solids 1
+WG1 1 1 0 0 vacuum
+#Boundaries 1
+PEC1 1 PerfectE
