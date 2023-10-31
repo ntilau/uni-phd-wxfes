@@ -9,3 +9,6 @@ Alternatively, you can use WSL (Ubuntu) to cross-compile the windows binary; see
 
 # Release
 - Download [x86_64-w64-mingw32](https://github.com/ntilau/uni-phd-wxfes/raw/master/bin/wxfes.exe) build
+
+# Screenshots
+![Koshiba](doc/koshiba.jpg)
