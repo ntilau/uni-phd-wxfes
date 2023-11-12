@@ -5,7 +5,6 @@ A wxWidgets + VTK experiment extending FES
 To get started, clone the repository. Then run Maker.bat in windows terminal and type:
 - 'mingw32-make' to start compilation; 
 - 'mingw32-make test' for testing 
-Alternatively, you can use WSL (Ubuntu) to cross-compile the windows binary; see the 'configure' file.
 
 # Release
 - Download [x86_64-w64-mingw32](https://github.com/ntilau/uni-phd-wxfes/raw/master/bin/wxfes.exe) build

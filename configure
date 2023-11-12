@@ -1,4 +1,0 @@
-#!/bin/bash
-# Support for WSL cross-compilation  -- NB: Work in progress...
-# Ubuntu prerequisites:
-sudo apt install -y gcc-mingw-w64-x86-64 g++-mingw-w64-x86-64 gfortran-mingw-w64-x86-64 win-iconv-mingw-w64-dev mingw-w64
